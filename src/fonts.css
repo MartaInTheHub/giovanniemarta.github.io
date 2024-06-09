@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Alex Brush';
+  src: url('./assets/fonts/AlexBrush-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Allura';
+  src: url('./assets/fonts/Allura-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Birthstone';
+  src: url('./assets/fonts/Birthstone-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('./assets/fonts/GreatVibes-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Handlee';
+  src: url('./assets/fonts/Handlee-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('./assets/fonts/Satisfy-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dancing-Script';
+  src: url('./assets/fonts/DancingScript-Bold.ttf'),
+  url('./assets/fonts/DancingScript-SemiBold.ttf'),
+  url('./assets/fonts/DancingScript-Medium.ttf'),
+  url('./assets/fonts/DancingScript-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

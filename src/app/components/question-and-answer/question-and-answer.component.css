@@ -1,0 +1,13 @@
+.cnt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+.item{
+    margin-bottom: 1rem;
+}
+.question{
+    font-weight: bold;
+}

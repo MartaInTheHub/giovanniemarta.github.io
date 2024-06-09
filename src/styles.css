@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+@import 'palette.css';
+@import 'fonts.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alex Brush', 'Arial', 'Birthstone', 'DancingScript', 'GreatVibes', 'Handlee', 'Satisfy';
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+  
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+  
+h1 {
+  font-size: 5em;
+  font-family: 'Alex Brush';
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Alex Brush';
+}
+
+p {
+  font-size: 1.5em;
+  font-family: 'Handlee';
+}
+
+a {
+  color: var(--background-color);
+}
+  
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+}

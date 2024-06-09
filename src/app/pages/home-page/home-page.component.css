@@ -1,0 +1,36 @@
+@import '../../../palette.css';
+
+
+.section {
+    height: 100vh; /* 100% dell'altezza del viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section1, #section3, #section5, #section7 {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+#section2, #section4, #section6 {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+
+.color-icon{
+    width: 5%;  /* Default width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+
+@media (max-width: 600px) {
+    .color-icon{
+        width: 7%;  /* Default width */
+        height: auto;  /* Maintain aspect ratio */
+    }
+}
+
