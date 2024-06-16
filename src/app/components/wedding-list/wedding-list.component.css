@@ -4,3 +4,7 @@
     align-items: center;
     width: 80vw;
 }
+
+.custom-font{
+    font-family:'Courier New', Courier, monospace;
+}
